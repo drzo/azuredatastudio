@@ -80,7 +80,7 @@ jobs:
 
       - name: Cache node modules
         id: cacheNodeModules
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: "**/node_modules"
           key: ${{ runner.os }}-release-nodeModules-${{ steps.nodeModulesCacheKey.outputs.value }}
@@ -154,7 +154,7 @@ jobs:
 
       - name: Cache node modules
         id: cacheNodeModules
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: "**/node_modules"
           key: ${{ runner.os }}-release-nodeModules-${{ steps.nodeModulesCacheKey.outputs.value }}
@@ -226,7 +226,7 @@ jobs:
 
       - name: Cache node modules
         id: cacheNodeModules
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: "**/node_modules"
           key: ${{ runner.os }}-release-arm64-nodeModules-${{ steps.nodeModulesCacheKey.outputs.value }}
@@ -303,7 +303,7 @@ jobs:
 
       - name: Cache node modules
         id: cacheNodeModules
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: "**/node_modules"
           key: ${{ runner.os }}-release-nodeModules-${{ steps.nodeModulesCacheKey.outputs.value }}
@@ -409,7 +409,7 @@ jobs:
 
       - name: Cache node modules
         id: cacheNodeModules
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: "**/node_modules"
           key: ${{ runner.os }}-release-arm64-nodeModules-${{ steps.nodeModulesCacheKey.outputs.value }}
@@ -505,7 +505,7 @@ jobs:
 
       - name: Cache node modules
         id: cacheNodeModules
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: "**/node_modules"
           key: ${{ runner.os }}-release-nodeModules-${{ steps.nodeModulesCacheKey.outputs.value }}
@@ -581,7 +581,7 @@ jobs:
 
       - name: Cache node modules
         id: cacheNodeModules
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: "**/node_modules"
           key: ${{ runner.os }}-release-arm64-nodeModules-${{ steps.nodeModulesCacheKey.outputs.value }}
@@ -655,7 +655,7 @@ jobs:
 
       - name: Cache node modules
         id: cacheNodeModules
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: "**/node_modules"
           key: ${{ runner.os }}-release-universal-nodeModules-${{ steps.nodeModulesCacheKey.outputs.value }}
